@@ -3,5 +3,5 @@ data*
 *.pyc
 models*
 plot.sh
-pics
+pics/
 mjkey.txt
