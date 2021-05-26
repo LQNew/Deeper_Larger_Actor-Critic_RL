@@ -2,7 +2,7 @@
 Implementation of large network design in RL. Easy switch between toy tasks and challenging games. Mainly follow three recent papers:
 
 - 2020 ICML [Can Increasing Input Dimensionality Improve Deep Reinforcement Learning?](https://arxiv.org/abs/2003.01629)
-- 2020 NIPS Workshop [D2RL: Deep Dense Architectures in Reinforcement Learning](https://arxiv.org/abs/2010.09163) 
+- 2020 NeurIPS Workshop [D2RL: Deep Dense Architectures in Reinforcement Learning](https://arxiv.org/abs/2010.09163) 
 - 2021 Arxiv [Training Larger Networks for Deep Reinforcement Learning](https://arxiv.org/abs/2102.07920)
 
 In the code, we denote the method in [Can Increasing Input Dimensionality Improve Deep Reinforcement Learning?](https://arxiv.org/abs/2003.01629) as `ofe`, the method in [D2RL: Deep Dense Architectures in Reinforcement Learning](https://arxiv.org/abs/2010.09163) as `d2rl`, and the method in [Training Larger Networks for Deep Reinforcement Learning](https://arxiv.org/abs/2102.07920) as `ofe_dense`. It is noteworthing that we only implement single-machine approach for `ofe_dense`, and we observe the **overfitting phenomenon**. We speculate that this is because the single-machine version is not as stable as the distributed approach.
