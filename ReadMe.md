@@ -29,7 +29,6 @@ In the code, we denote the method in [Can Increasing Input Dimensionality Improv
 # pytorch       1.4.0  (pip)
 # tensorflow    1.14.0 (pip)
 # DMC Control Suite and MuJoCo
-# Attention: Need `mjkey.txt`!!
 cd dockerfiles
 docker build . -t rl-docker
 ```
