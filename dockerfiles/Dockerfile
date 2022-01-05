@@ -124,8 +124,9 @@ RUN sed -i "s/archive.ubuntu.com/mirrors.ustc.edu.cn/g" /etc/apt/sources.list &&
         glfw \
         scikit-image \
         box2d-py \
-        gym \
-        mujoco-py \
+        gym==0.20.0 \
+        mujoco-py==2.0.2.13 \
+        opencv-python \
         && \
     cd /root/dependencies/ && \
     unzip /root/dependencies/dm_control-master.zip && \
